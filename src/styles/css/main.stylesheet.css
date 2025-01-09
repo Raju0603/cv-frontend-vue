@@ -177,11 +177,15 @@ input[type='text']:focus {
     position: relative;
     left: 0.5rem;
     font-size: 1em;
-    text-align: center;
     display: inline-block;
     width: 35vw;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 @media (max-width: 991px) {
